@@ -1,0 +1,8 @@
+[package]
+name = "broco"
+version = "0.1.0"
+authors = ["Brothers & Company <interactive@broco.com>"]
+
+[dependencies]
+clap = {version = "~2.30", features = ["yaml"]}
+users = "0.6"

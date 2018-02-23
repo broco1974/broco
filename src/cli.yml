@@ -1,0 +1,15 @@
+name: broco
+version: "v0.1.0"
+author: Brothers & Company <interactive@broco.com>
+about: Command line utilties for Brothers & Company developers
+subcommands:
+    - hello:
+        about: Say "Hello"
+        version: "v0.1.0"
+        subcommands:
+            - user:
+                about: Say "Hello, <user>!"
+                version: "v0.1.0"
+            - world:
+                about: Say "Hello, world!"
+                version: "v0.1.0"
